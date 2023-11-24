@@ -28,5 +28,11 @@ namespace WinDbTestApp
             string s = MsSqlDbHelper.DoDbTest();
             MessageBox.Show(s);
         }
+
+        private void BtnSqLite_Click(object sender, EventArgs e)
+        {
+            string s = SqLiteDbHelper.DoDbTest();
+            MessageBox.Show(s);
+        }
     }
 }

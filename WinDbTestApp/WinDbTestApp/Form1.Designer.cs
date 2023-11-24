@@ -61,6 +61,7 @@
             this.BtnSqLite.TabIndex = 2;
             this.BtnSqLite.Text = "SQLite";
             this.BtnSqLite.UseVisualStyleBackColor = true;
+            this.BtnSqLite.Click += new System.EventHandler(this.BtnSqLite_Click);
             // 
             // FrmMain
             // 
