@@ -22,5 +22,11 @@ namespace WinDbTestApp
             string s = MySqlDbHelper.DoDbTest();
             MessageBox.Show(s);
         }
+
+        private void BtnMsSql_Click(object sender, EventArgs e)
+        {
+            string s = MsSqlDbHelper.DoDbTest();
+            MessageBox.Show(s);
+        }
     }
 }

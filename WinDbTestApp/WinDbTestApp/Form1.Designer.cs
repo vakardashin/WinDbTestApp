@@ -51,6 +51,7 @@
             this.BtnMsSql.TabIndex = 1;
             this.BtnMsSql.Text = "MS SQL";
             this.BtnMsSql.UseVisualStyleBackColor = true;
+            this.BtnMsSql.Click += new System.EventHandler(this.BtnMsSql_Click);
             // 
             // BtnSqLite
             // 
