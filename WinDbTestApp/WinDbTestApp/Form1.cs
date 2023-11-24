@@ -16,5 +16,11 @@ namespace WinDbTestApp
         {
             InitializeComponent();
         }
+
+        private void BtnMySql_Click(object sender, EventArgs e)
+        {
+            string s = MySqlDbHelper.DoDbTest();
+            MessageBox.Show(s);
+        }
     }
 }

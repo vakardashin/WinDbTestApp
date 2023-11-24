@@ -41,6 +41,7 @@
             this.BtnMySql.TabIndex = 0;
             this.BtnMySql.Text = "MySQL";
             this.BtnMySql.UseVisualStyleBackColor = true;
+            this.BtnMySql.Click += new System.EventHandler(this.BtnMySql_Click);
             // 
             // BtnMsSql
             // 
