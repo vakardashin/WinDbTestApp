@@ -9,7 +9,7 @@ namespace WinDbTestApp
 {
     public class MySqlDbHelper
     {
-      public static string DoDbTest()
+        public static string DoDbTest()
         {
             string s = " ";
             string strCnn = "Server=localhost;User ID = root;Password=root;Database=arnion";
