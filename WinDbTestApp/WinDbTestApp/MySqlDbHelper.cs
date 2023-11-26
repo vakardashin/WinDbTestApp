@@ -11,7 +11,7 @@ namespace WinDbTestApp
     {
         public static string DoDbTest()
         {
-            string s = " ";
+            string s = "";
             // строка подключения к БД
             string strCnn = "Server=localhost;User ID = root;Password=root;Database=arnion";
             // создаём объект для подключения к БД
@@ -26,7 +26,7 @@ namespace WinDbTestApp
                 // читаем результат
                 while (rdr.Read())
                 {
-                    s += (string)rdr[0].ToString() + " " + rdr[1].ToString();
+                    s += (string)rdr[0].ToString() + " " + rdr[1].ToString() + Environment.NewLine;
                 }
             }
             return s;
